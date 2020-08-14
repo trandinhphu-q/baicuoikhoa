@@ -1,0 +1,101 @@
+body{
+    margin: 0px 10% 0px 10%;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: peachpuff;
+}
+
+.logo{
+    height: 50px;  
+    display: inline-block;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    color: palevioletred;
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0px;
+}
+
+.button{
+    color: #da3c3c;
+    text-align: center;
+    width: 12%;
+    padding: 5px 3.75% 5px 3.75%;
+    font-size: 22px;
+    vertical-align: middle;
+    font-weight: 400;
+    border-left: grey solid 1px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #da3c3c;
+    color: peachpuff;
+}
+
+.banner{
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+}
+
+h2{
+    color: rgb(112, 0, 37);
+    font-size: 27px;
+    width: fit-content;
+    vertical-align: middle;
+    padding: 0px 0px 10px  0px;
+    border-bottom: #da3c3c solid 3px;
+}
+
+.prod{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+}
+
+.item{
+    width: 16%;
+    height: 230px;
+    margin: 2%;
+    padding: 2%;
+    border: grey solid 1px;
+}
+
+.item p{
+    color: #3612bbc4;
+    text-align: center;
+}
+
+.item img{
+    width: 100%;
+    height: 170px;
+}
+
+.down{
+    border: rgb(67, 211, 39) solid 1px;
+    background-color: rgb(35, 231, 61);
+}
+.down p{
+    color: red
+}
+
+.contact{
+    background-color: rgb(114, 250, 166);
+    margin-bottom: -1.5%;
+}
+.contact p{
+    margin: 0% 0% 2% 5%;
+}
+
